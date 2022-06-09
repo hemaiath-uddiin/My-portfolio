@@ -9,7 +9,10 @@ article.about_me a {
     text-decoration: none;
     color: white;
     margin: 10px;
-} 
+}  
+article.about_me {
+    margin-top: 20%;
+}
 button.title_btn {
     border: none;
     margin-top: 10px;
