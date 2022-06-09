@@ -1,0 +1,11 @@
+header {
+    background: #000000;;
+    margin-top: 3px; 
+    color: #fff;
+} 
+article.about_me a {
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
