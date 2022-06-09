@@ -14,13 +14,14 @@ const Header = () => {
                  <div className="col-lg-6"> 
                    
                   <article className='about_me'>  
-                  <button> Hello</button> 
+                  <button className='title_btn'> Hello</button> 
                   <h1> I am Hemaiath Uddin   </h1> 
                    <h5>Front End Web Developer</h5> 
                    <p> hemaithsifat@gmail.com</p> 
                     <a href="http:/"> <FaFacebookSquare />   </a>
                     <a href="http:/"> <FaLinkedin />   </a>
-                    <a href="http:/"> <FaGithubSquare />   </a>
+                    <a href="http:/"> <FaGithubSquare />   </a>  <br />
+                    <button className='cv_btn'> <a href="https://drive.google.com/file/d/12NDTrjVjpBZoAzw6RjU29tA1nXntZsVG/view?usp=sharing">  Download Cv </a> </button>
                   </article>
                  </div>
                

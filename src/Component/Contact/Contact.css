@@ -1,4 +1,23 @@
 form {
     width: 50%;
     margin: auto;
+} 
+.container.form_wraper {
+    background:#fff;
+    margin-top: 9%;  
+    box-shadow: -1px 1px 4px 4px #cdcdcd; 
+    padding: 16px 0px;
+
+} 
+.forms_img{ 
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg'); 
+    background-repeat: no-repeat;
+} 
+label {
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+} 
+.form-group {
+    margin: 16px 0px;
 }

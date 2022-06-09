@@ -1,11 +1,12 @@
 import React from 'react';
 import img from "../../final-projects.png"
-import img2 from "../../screenshot-final-project-dda07.web.app-2022.06.09-14_36_41.png"
+import img2 from "../../screenshot-final-project-dda07.web.app-2022.06.09-14_36_41.png" 
+import "./About.css"
 const About = () => {
     return (
         <div className='container'>
-            <h2 className='text-center'>  My Project</h2>
-            <div className="row">
+            <h2 className='text-center title'>  My Project</h2>
+            <div className="row  project">
                  
                  <div className="col-lg-6 d-block d-lg-flex">
                     <div class="card" >
