@@ -35,5 +35,27 @@ button.cv_btn a {
     background: white;
     padding: 10px;
     box-shadow: 1px 1px 5px 7px silver; 
-    margin-top: 10%;
-}
+    margin-top: 6%;
+} 
+
+@media only screen and (max-width: 640px) {
+   .about_me{ 
+      
+       text-align: center;
+   } 
+   .cv_btn{ 
+   margin-bottom: 10px;
+
+  } 
+  .abou_img { 
+   text-align: center;  
+  
+   margin-bottom: 20px;
+  } 
+  .title_btn{ 
+      margin-bottom: 10px;
+  }
+
+
+
+  }

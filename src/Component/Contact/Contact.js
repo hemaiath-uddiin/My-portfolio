@@ -38,8 +38,9 @@ import emailjs from "emailjs-com"
      }
    
     return (
-        <div className='container form_wraper'> 
-        <h2 className='text-center'> contact with me</h2>
+      
+       <div className='container form_wraper'> 
+        <h2 className='text-center contact'> contact with me</h2>
         <form  className='forms_img' onSubmit={sendEmail}>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label"> Name</label>

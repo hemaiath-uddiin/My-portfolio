@@ -3,7 +3,7 @@ import img from "../../final-projects.png"
 import img2 from "../../screenshot-final-project-dda07.web.app-2022.06.09-14_36_41.png" 
 import "./About.css"
 const About = () => {
-    return (
+    return ( 
         <div className='container'>
             <h2 className='text-center title'>  My Project</h2>
             <div className="row  project">
@@ -14,7 +14,7 @@ const About = () => {
                             <div class="card-body">
                                 <h5 class="card-title"> Iphone warehouse app </h5>
                                 <p class="card-text"></p>
-                                <a href="/" class="btn btn-primary"> Live link</a>
+                                <a href="https://iphone-warehouse-auth.web.app/" class="btn btn-primary" target="blank" > Live link</a>
                             </div>
                     </div>
 
@@ -26,7 +26,7 @@ const About = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Drill Machine Manufacture</h5>
                                 <p class="card-text"></p>
-                                <a href="/" class="btn btn-primary"> Live link</a>
+                                <a href="https://final-project-dda07.web.app/"  class="btn btn-primary" target="blank"  > Live link</a>
                             </div>
                     </div>
 

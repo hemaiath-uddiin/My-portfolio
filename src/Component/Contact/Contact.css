@@ -20,4 +20,8 @@ label {
 } 
 .form-group {
     margin: 16px 0px;
+} 
+.contact {
+    text-transform: capitalize;
+    margin-bottom: 19px;
 }
