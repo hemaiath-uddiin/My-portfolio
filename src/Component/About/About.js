@@ -13,7 +13,7 @@ const About = () => {
     return ( 
         <div className='container'>
             <h2 className='text-center title'>  My Project</h2>
-            <div className="row project"  data-aos="flip-left">
+            <div id='about' className="row project"  data-aos="flip-left">
                  
                  <div className="col-lg-6 d-block d-lg-flex ">
                     <div class="card"  >
