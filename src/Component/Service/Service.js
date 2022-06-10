@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaJs, FaReact, FaCss3Alt } from "react-icons/fa"; 
-import './Service.css'
+import './Service.css' 
+import Aos from "aos" 
+import 'aos/dist/aos.css'
 const Service = () => {
     const data = [
         {
@@ -24,7 +26,9 @@ const Service = () => {
 
 
     ]
-
+    useEffect(()=>{ 
+        Aos.init({  duration: 3000});
+    },[])
     return (
         <div className='container service_container'>
             <h2 className='text-center mb-5'> What I do</h2>
@@ -34,7 +38,7 @@ const Service = () => {
                         return (
                             <div className="col-lg-4 d-block d-lg-flex ">
                                
-                                    <div class="card service_wraper ">
+                                    <div class="card service_wraper " data-aos="flip-left"   >
                                        <div class="card-body ">
                                              <article className='serv_des'> 
                                              <h5 class="card-title titles">{service.icon}</h5>

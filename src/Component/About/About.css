@@ -3,4 +3,11 @@
     padding: 10px;
     box-shadow: 1px 1px 5px 7px silver;
     margin-top: 6%;
-}
+} 
+ul.project_detls li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold; 
+    line-height: 37px;
+    text-transform: capitalize;
+} 
