@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="row">
          <div className="col-lg-3"></div>
         <div className="col-lg-7">
-          <form className='forms_img' onSubmit={sendEmail}>
+          <form id='contact' className='forms_img' onSubmit={sendEmail}>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"> Name</label>
               <input onChange={e => setName(e.target.value)} required placeholder='Enter Your Name' type="name" name='name' class="form-control" value={name} id="exampleInputEmail1 " aria-describedby="emailHelp" />
