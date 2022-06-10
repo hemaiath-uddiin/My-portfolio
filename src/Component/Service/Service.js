@@ -21,7 +21,7 @@ const Service = () => {
             id: 3,
             title: "Responsive Design",
             icon: <FaCss3Alt></FaCss3Alt>,
-            des: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, aperiam? Repellat, cum? Unde, architecto? Obcaecati sapiente repudiandae omnis vero expedita!'
+            des: 'Optimizing your app for small screens improves the experience for your users and delivers positive business results'
         },
 
 
